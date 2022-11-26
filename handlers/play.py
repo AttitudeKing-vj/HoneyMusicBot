@@ -102,7 +102,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **పాటను వెతుకుతున్న 😒 ❰ 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗠𝘂𝘀𝗶𝗰 😇 ❱...**")
+    lel = await message.reply("🔎 **sofiya searching**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -139,7 +139,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<b>𝗛𝗲𝘆 𝗕𝗮𝗯𝘂 😑 {user.first_name}, 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗜𝘀 𝗕𝗮𝗻𝗻𝗲𝗱 𝗶𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 𝗼𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹, 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝘁𝗼 𝗨𝗻𝗯𝗮𝗻 𝗕𝗼𝘁 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆,𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 𝗔𝗻𝘆 𝗛𝗲𝗹𝗽 𝗗𝗺:- [❛-𝗜𝗮𝗺 𝗚𝗿𝗼𝗼𝘁 🌱](https://t.me/MyNameIsGroot) </b>")
+            f"<b>𝗛𝗲𝘆 𝗕𝗮𝗯𝘂 😑 {user.first_name}, 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗜𝘀 𝗕𝗮𝗻𝗻𝗲𝗱 𝗶𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 𝗼𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹, 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝘁𝗼 𝗨𝗻𝗯𝗮𝗻 𝗕𝗼𝘁 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆,𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 𝗔𝗻𝘆 𝗛𝗲𝗹𝗽 𝗗𝗺:- [vijay](t.me/attitudeKing_Vj) </b>")
         return
     
     audio = (
@@ -166,13 +166,13 @@ async def play(_, message: Message):
             [
                      [
                     InlineKeyboardButton(
-                            text="𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸",
-                            url=f"https://t.me/rjbr0")
+                            text="Owner",
+                            url=f"t.me/attitudeKing_vj")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀",
-                            url=f"https://t.me/groot_Network")
+                            text="Status",
+                            url=f"https://t.me/love_track_on")
                    
                 ]
             ]
@@ -210,13 +210,13 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸",
-                            url=f"https://t.me/rjbr0")
+                            text="Owner",
+                            url=f"t.me/attitudeKing_vj")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀",
-                            url=f"https://t.me/groot_Network")
+                            text="Status",
+                            url=f"https://t.me/love_track_on")
                    
                 ]
             ]
@@ -224,20 +224,20 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/b9046390e87cbc3c5b6f0.jpg"
+            thumb_name = "https://telegra.ph/file/4ad109a27d36b93a9a803.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
           [
                     InlineKeyboardButton(
-                            text="𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸",
-                            url=f"https://t.me/rjbr0")
+                            text="Owner",
+                            url=f"t.me/attitudeKing_vj")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀",
-                            url=f"https://t.me/groot_Network")
+                            text="Status",
+                            url=f"https://t.me/love_track_on")
                    
                 ]
             ]
@@ -254,9 +254,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**✌️మీరు ప్లే చేయాలనుకుంటున్న పాట ఏమిటి ▶ **"
+                "**✌️What song do you want to play? ▶ **"
             )
-        await lel.edit("**వాయిస్ చాట్ ప్లే చేయడానికి సంగీతం సిద్ధంగా ఉంది**")
+        await lel.edit("**Music is ready to play voice chat**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -290,13 +290,13 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸",
-                            url=f"https://t.me/rjbr0")
+                            text="Owner",
+                            url=f"t.me/attitudeKing_vj")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀",
-                            url=f"https://t.me/Groot_Network")
+                            text="Status",
+                            url=f"https://t.me/love_track_on")
                    
                 ]
             ]
@@ -318,7 +318,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗠𝘂𝘀𝗶𝗰 𝗦𝗼𝗻𝗴 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻** {}**".format(position),
+            caption="****🌱 Sofiya 𝗠𝘂𝘀𝗶𝗰 𝗦𝗼𝗻𝗴 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -336,7 +336,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🌱 𝗚𝗿𝗼𝗼𝘁 𝗠𝘂𝘀𝗶𝗰 𝗡𝗼𝘄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗢𝗣 😌`{}`...**".format(
+            caption="**🌱 Sofiya 𝗠𝘂𝘀𝗶𝗰 𝗡𝗼𝘄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗢𝗣 😌`{}`...**".format(
         message.chat.title
         ), )
 
